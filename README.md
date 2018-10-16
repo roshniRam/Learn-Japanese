@@ -4,4 +4,5 @@ Please read the [contributing guidelines](contributing.md) if you wish to contri
 
 ## Start Today !!
 
-* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/colors) :radio_button:
+* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/colors) 
+* [Basic phrases](https://github.com/roshniRam/Learn-Japanese/tree/master/Basic%20Phrases)
