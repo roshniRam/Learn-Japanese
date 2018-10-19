@@ -45,4 +45,8 @@
         <td>Good night</td>
         <td>O-yasumi nasai</td>
     </tr>
+    <tr>
+        <td>That's all right</td>
+        <td>Dai jobu desu</td>
+    </tr>
 </table>
