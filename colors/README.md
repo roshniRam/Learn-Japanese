@@ -45,4 +45,24 @@
         <td>White</td>
         <td>Shiro</td>
     </tr>
+    <tr>
+        <td>Gray</td>
+        <td>Hai-iro</td>
+    </tr>
+    <tr>
+        <td>Gold</td>
+        <td>Kin-iro</td>
+    </tr>
+    <tr>
+        <td>Silver</td>
+        <td>Gin-iro</td>
+    </tr>
+    <tr>
+        <td>Rainbow</td>
+        <td>Niji</td>
+    </tr>
+    <tr>
+        <td>Multi-colored</td>
+        <td>Tashokuno</td>
+    </tr>
 </table>
