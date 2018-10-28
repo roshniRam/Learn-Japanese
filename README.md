@@ -10,3 +10,5 @@ Please read the [contributing guidelines](contributing.md) if you wish to contri
 * [Food](https://github.com/roshniRam/Learn-Japanese/tree/master/Food)
 * [Time tracking](https://github.com/roshniRam/Learn-Japanese/tree/master/Time%20Tracking)
 * [Basic sentences](https://github.com/roshniRam/Learn-Japanese/tree/master/Basic%20sentences)
+* [Clothing](https://github.com/roshniRam/Learn-Japanese/tree/master/Clothing)
+
