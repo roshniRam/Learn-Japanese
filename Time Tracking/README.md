@@ -2,7 +2,6 @@
 
 ### Days of the Week :
 <table>
-
     <tr>
         <th>English</th>
         <th>Japanese</th>
