@@ -11,4 +11,4 @@ Please read the [contributing guidelines](contributing.md) if you wish to contri
 * [Time tracking](https://github.com/roshniRam/Learn-Japanese/tree/master/Time%20Tracking)
 * [Basic sentences](https://github.com/roshniRam/Learn-Japanese/tree/master/Basic%20sentences)
 * [Clothing](https://github.com/roshniRam/Learn-Japanese/tree/master/Clothing)
-
+* [Numbers](https://github.com/roshniRam/Learn-Japanese/tree/master/numbers)
