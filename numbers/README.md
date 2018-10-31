@@ -92,6 +92,26 @@
         <td>Tō amari itsutsu</td>
     </tr>
     <tr>
+        <td>Sixteen</td>
+        <td>Jū roku</td>
+        <td>Tō amari itsutsu</td>
+    </tr>
+    <tr>
+        <td>Seventeen</td>
+        <td>jū nana</td>
+        <td>Tō amari itsutsu</td>
+    </tr>
+    <tr>
+        <td>Eighteen</td>
+        <td>jū hachi</td>
+        <td>Tō amari itsutsu</td>
+    </tr>
+    <tr>
+        <td>Nineteen</td>
+        <td>jū kyū</td>
+        <td>Tō amari itsutsu</td>
+    </tr>
+    <tr>
         <td>Twenty</td>
         <td>Ni-jū</td>
         <td>Hatachi</td>
