@@ -50,6 +50,6 @@ Kanji was imported from China, but pronounciations and usage of Kanji has been m
 </table>
 
 
-# Source:
+### Source:
 * [Japanese-lessons](http://japanese-lesson.com/characters/kanji/index.html)
 * [Kanji](https://en.wikipedia.org/wiki/Kanji)
