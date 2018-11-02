@@ -1,13 +1,12 @@
-# German Grammer Rules
+# Kanji Characters
 
-## Capitalizing Nouns
 Kanji are the adopted logographic Chinese characters that are used in the Japanese writing system. They are used alongside the Japanese syllabic scripts hiragana and katakana. The Japanese term kanji for the Chinese characters literally means "Han characters".
 Kanji is an ideographic character - each letter symbolizes its meaning. It is used widely to form a sentence.
 
 **Origin** 
 Kanji was imported from China, but pronounciations and usage of Kanji has been modified to fit the Japanese language. In addition, some Kanji characters were developed in Japan.
 
-###Shape
+## Shape
 
 <table>
     <tr>
@@ -34,7 +33,7 @@ Kanji was imported from China, but pronounciations and usage of Kanji has been m
 
 **Note:** Many Kanji letters symbolize the shape of things.
 
-#Structure
+## Structure
 <table>
     <tr>
         <th>Kanji = Component + Component</th>
