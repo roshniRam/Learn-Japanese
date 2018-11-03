@@ -10,7 +10,7 @@ Each Hiragana letter represents particular syllable. Letter itself has no meanin
 Hiragana is used widely to form a sentence.
 [Hiragana chart](http://japanese-lesson.com/resources/pdf/characters/hiragana_chart.pdf)
 
-**Origin**
+##Origin
 <table>
     <tr>
         <th>Hiragana</th>
