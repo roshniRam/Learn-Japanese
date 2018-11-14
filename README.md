@@ -12,3 +12,7 @@ Please read the [contributing guidelines](contributing.md) if you wish to contri
 * [Basic sentences](https://github.com/roshniRam/Learn-Japanese/tree/master/Basic%20sentences)
 * [Clothing](https://github.com/roshniRam/Learn-Japanese/tree/master/Clothing)
 * [Numbers](https://github.com/roshniRam/Learn-Japanese/tree/master/numbers)
+* [Characters](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters)
+   + [Hiragana](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters/Hiragana)
+   + [Kanji](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters/Kanji)
+   + [Katakana](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters/Katakana)
