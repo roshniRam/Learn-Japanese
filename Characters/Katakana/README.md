@@ -21,8 +21,10 @@ Katakana was developed in the 8th century by simplifying the form of Kanji symbo
     </tr>
     <tr>
         <td>カ </td>
-        <td>加	</td>
+        <td>加</td>
     </tr>
+</table>
+ 
 
 
 ### Source:
