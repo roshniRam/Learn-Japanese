@@ -12,18 +12,18 @@ For all those Japan fans or people who are willing to learn Japanses, here is a 
 
 ## Start Today !!
 
-* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/colors) 
-* [Basic phrases](https://github.com/roshniRam/Learn-Japanese/tree/master/Basic%20Phrases)
-* [Animals](https://github.com/roshniRam/Learn-Japanese/tree/master/Animals)
-* [Food](https://github.com/roshniRam/Learn-Japanese/tree/master/Food)
-* [Time tracking](https://github.com/roshniRam/Learn-Japanese/tree/master/Time%20Tracking)
-* [Basic sentences](https://github.com/roshniRam/Learn-Japanese/tree/master/Basic%20sentences)
-* [Clothing](https://github.com/roshniRam/Learn-Japanese/tree/master/Clothing)
-* [Numbers](https://github.com/roshniRam/Learn-Japanese/tree/master/numbers)
-* [Characters](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters)
-   + [Hiragana](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters/Hiragana)
-   + [Kanji](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters/Kanji)
-   + [Katakana](https://github.com/roshniRam/Learn-Japanese/tree/master/Characters/Katakana)
+* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/colors) 
+* [Basic phrases](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20Phrases)
+* [Animals](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Animals)
+* [Food](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Food)
+* [Time tracking](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Time%20Tracking)
+* [Basic sentences](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20sentences)
+* [Clothing](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Clothing)
+* [Numbers](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/numbers)
+* [Characters](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Characters)
+   + [Hiragana](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Characters/Hiragana)
+   + [Kanji](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Characters/Kanji)
+   + [Katakana](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Characters/Katakana)
 
 
 ### Install
