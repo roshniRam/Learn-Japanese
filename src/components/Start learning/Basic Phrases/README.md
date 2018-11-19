@@ -1,4 +1,4 @@
-# Colors
+# Basic Phrases
 
 <table>
 	<tr>
