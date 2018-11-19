@@ -9,7 +9,7 @@
 
 
 ## About
-For all those Japan fans or people who are willing to learn Japanses, here is a simple website to learn Japanese language from basics. Anyone can take quizes in order to check their progress. 
+For all those Japan fans or people who are willing to learn Japanses, here is a simple website to learn Japanese language from basics. Start from easy level then intermediate level. Hear the pronunciations as well. Anyone can take quizes in order to check their progress. 
 
 ## Start Today !!
 
