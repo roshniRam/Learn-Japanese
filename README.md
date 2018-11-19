@@ -12,7 +12,7 @@ For all those Japan fans or people who are willing to learn Japanses, here is a 
 
 ## Start Today !!
 
-* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/colors) 
+* [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/colors) 
 * [Basic phrases](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20Phrases)
 * [Animals](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Animals)
 * [Food](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Food)
