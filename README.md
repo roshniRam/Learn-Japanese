@@ -1,4 +1,5 @@
-# Learning Japanese
+# Nihongo-Love
+## Learning Japanese
 
 [![Contributors needed](https://img.shields.io/badge/contributors-needed-yellow.svg)](CONTRIBUTING.md)
 
