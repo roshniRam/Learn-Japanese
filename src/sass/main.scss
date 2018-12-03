@@ -21,8 +21,8 @@ body {
 .navbar {
 	padding: 1.5rem 15rem;
 	display: flex;
-	background-color: #f8f9fa;
 	justify-content: space-between;
+	background-color: #f8f9fa;
 	box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
 
 	&__logo a {
@@ -31,6 +31,15 @@ body {
 		color: #ed2939;
 		font-size: 2rem;
 	}
+
+
+	&__link {
+		display: inline-block;
+		float: left;
+		margin-left: 20px;
+	}
+
+
 
 	&__link a {
 		display: block;
@@ -67,6 +76,7 @@ body {
 		border-radius: 3px;
 		border: none;
 		outline: none;
+		
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
