@@ -21,8 +21,8 @@ body {
 .navbar {
 	padding: 1.5rem 15rem;
 	display: flex;
-	background-color: #f8f9fa;
 	justify-content: space-between;
+	background-color: #f8f9fa;
 	box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
 
 	&__logo a {
@@ -40,9 +40,14 @@ body {
 		padding: 3px 1.2rem;
 		color: #ffffff;
 		border-radius: 3px;
+    margin: 2px;
+
 	}
 }
-
+.links{
+	display: flex;
+	justify-content: flex-end;
+}
 .header {
 	height: calc(100vh - 6.4rem);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
