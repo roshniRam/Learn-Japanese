@@ -31,13 +31,13 @@ class Navbar extends React.Component {
 
 				<div class="links">
 				<div className="navbar__link">
-
 					<a onMouseEnter={this.showMenu} href="https://roshniram.github.io/Learn-Japanese/">Start Learning</a>
 					{
 						this.state.showMenu
 						? (
 
 					<div className="navbar__link">
+					<div class="drop">
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/colors">Colors</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20Phrases">Basic phrases</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Animals">Animals</a>
@@ -48,13 +48,13 @@ class Navbar extends React.Component {
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/numbers">Numbers</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Characters">Characters</a>
 					</div>
+					</div>
 				)
 				: (
 					null
 				)
 			}
 				</div>
-
 				<div className="navbar__link">
 					<a href="#">Login</a>
 				</div>
