@@ -38,8 +38,7 @@ body {
 	&__link {
 		display: inline-block;
 		float: left;
-		margin-left: 0;
-		margin-right: 10px;
+		margin-left: 20px;
 	}
 
 
@@ -59,9 +58,15 @@ body {
 	justify-content: flex-end;
 }
 
-.drop{
-    position: absolute;
+.drop {
+	display: none;
+	position: absolute;
 }
+
+.navbar__link:hover .drop{
+    display:block;
+    }
+
 .header {
 	height: calc(100vh - 6.4rem);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
