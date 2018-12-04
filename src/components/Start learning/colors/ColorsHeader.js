@@ -1,22 +1,22 @@
 import React from 'react';
 
-import Card from './Card';
+import CardColors from './CardColors';
 
-class Header extends React.Component {
+class ColorsHeader extends React.Component {
 	render() {
 		return (
 			<header className="header">
 				<h1 className="header__tagline">Learn Japanese</h1>
 				<div className="header__learn">
-					<Card
+					<CardColors
 						heading="Japan lovers"
 						content="VBecome a japanese language hero. Lorem ipsum dolor sit amet, an putent fabellas signiferumque qui, magna tractatos contentiones cum ei,"
 					/>
-					<Card
+					<CardColors
 						heading="Learn smart"
 						content="Learn different japanese characters, local speaking style. Lorem ipsum dolor sit amet, an putent fabellas signiferumque qui"
 					/>
-					<Card
+					<CardColors
 						heading="Learn anywhere, anytime"
 						content="A learning adventure that will help you enhance your skills. Lorem ipsum dolor sit amet, an putent fabellas signiferumque qui"
 					/>
@@ -27,4 +27,4 @@ class Header extends React.Component {
 	}
 }
 
-export default Header;
+export default ColorsHeader;

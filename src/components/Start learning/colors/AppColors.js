@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Navbar from '../../Navbar.js';
-import Header from './ColorsHeader.js';
-
+import Navbar from '../../Navbar';
+import Header from './ColorsHeader';
+import Menu from '../../Menu';
 import './colors.scss';
 
 class AppColors extends React.Component {
@@ -17,4 +17,4 @@ class AppColors extends React.Component {
 	}
 }
 
-export default App;
+export default AppColors;
