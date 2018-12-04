@@ -49,9 +49,14 @@ body {
 		padding: 3px 1.2rem;
 		color: #ffffff;
 		border-radius: 3px;
+    margin: 2px;
+
 	}
 }
-
+.links{
+	display: flex;
+	justify-content: flex-end;
+}
 .header {
 	height: calc(100vh - 6.4rem);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
