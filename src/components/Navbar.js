@@ -36,7 +36,7 @@ class Navbar extends React.Component {
 						? (
 
 					<div className="navbar__link">
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/colors">Colors</a>
+						<a href="https://github.com/Kstheking/Learn-Japanese/blob/test/src/components/Start%20learning/colors/colors.html">Colors</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20Phrases">Basic phrases</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Animals">Animals</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Food">Food</a>
