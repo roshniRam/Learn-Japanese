@@ -10,7 +10,7 @@ class AppColors extends React.Component {
 		return (
 			<div>
 				<Navbar />
-				<Header />
+				{/*<Header /> */}
 			 {/* <Menu /> */}
 			</div>
 		);
