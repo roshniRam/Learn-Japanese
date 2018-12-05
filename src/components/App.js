@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Colors from './colors/colors'
+import Colors from './Start\ learning/colors/colors';
 import Navbar from './Navbar';
 import Header from './Header';
 import Menu from './Menu';
