@@ -25,12 +25,22 @@ body {
 	background-color: #f8f9fa;
 	box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
 
+    overflow: hidden;
+
 	&__logo a {
 		display: inline-block;
 		text-decoration: none;
 		color: #ed2939;
 		font-size: 2rem;
 	}
+
+
+	&__link {
+		display: inline-block;
+		float: left;
+		margin-left: 20px;
+	}
+
 
 	&__link a {
 		display: block;
@@ -40,14 +50,23 @@ body {
 		padding: 3px 1.2rem;
 		color: #ffffff;
 		border-radius: 3px;
-    margin: 2px;
-
+    	margin: 2px;
 	}
 }
 .links{
 	display: flex;
 	justify-content: flex-end;
 }
+
+.drop {
+	display: none;
+	position: absolute;
+}
+
+.navbar__link:hover .drop{
+    display:block;
+    }
+
 .header {
 	height: calc(100vh - 6.4rem);
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg);
@@ -72,6 +91,7 @@ body {
 		border-radius: 3px;
 		border: none;
 		outline: none;
+		
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
