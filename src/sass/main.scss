@@ -61,6 +61,7 @@ body {
 .drop {
 	display: none;
 	position: absolute;
+	z-index: 1;
 }
 
 .navbar__link:hover .drop{
@@ -91,7 +92,7 @@ body {
 		border-radius: 3px;
 		border: none;
 		outline: none;
-		
+
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -109,7 +110,36 @@ body {
 		}
 	}
 }
-
+.headerColors
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Colors_lonfeldt.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.tableCard {
+	background-color: #ed295a;
+	padding: 1.2rem 2rem;
+	display: inline-block;
+	border-radius: 3px;
+	margin-bottom: 2rem;
+	transition: all 0.3s ease-in-out;
+&__Header{
+	color: #ffffff;
+ font-size: 1.3rem;
+}
+&__Element{
+color: #ffffff;
+font-size: 1.2rem;
+}
+&:hover {
+	transform: translateY(9px) scale(1.1);
+}
+}
 .card {
 	background-color: #ffffff;
 	padding: 1.2rem 2rem;
