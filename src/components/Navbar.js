@@ -32,9 +32,9 @@ class Navbar extends React.Component {
 				<div class="links">
 				<div className="navbar__link">
 					<a href="https://roshniram.github.io/Learn-Japanese/">Start Learning</a>
-					
+
 					<div class="drop">
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/colors">Colors</a>
+						<a href="colors">Colors</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20Phrases">Basic phrases</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Animals">Animals</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Food">Food</a>
@@ -44,7 +44,7 @@ class Navbar extends React.Component {
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/numbers">Numbers</a>
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Characters">Characters</a>
 					</div>
-			
+
 				</div>
 				<div className="navbar__link">
 					<a href="#">Login</a>
