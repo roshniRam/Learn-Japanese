@@ -35,22 +35,31 @@ class Navbar extends React.Component {
 
 					<div class="drop">
 						<a href="colors">Colors</a>
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20Phrases">Basic phrases</a>
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Animals">Animals</a>
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Food">Food</a>
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Time%20Tracking">Time tracking</a>
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20sentences">Basic Sentences</a>
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Clothing">Clothing</a>
-						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/numbers">Numbers</a>
+						<a href="basicPhrases">Basic phrases</a>
+						<a href="animals">Animals</a>
+						<a href="food">Food</a>
+						<a href="timeTracking">Time tracking</a>
+						<a href="basicSentences">Basic Sentences</a>
+						<a href="clothing">Clothing</a>
+						<a href="numbers">Numbers</a>
+						<div className="characters">
 						<a href="https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Characters">Characters</a>
+						<div className="charactersLinks">
+						<a href="hiragana">Hiragana</a>
+						<a href="kanji">Kanji</a>
+						<a href="katakana">Katakana</a>
+						</div>
+						</div>
 					</div>
 
 				</div>
+
 				<div className="navbar__link">
 					<a href="#">Login</a>
 				</div>
 
 				</div>
+
 
 			</nav>
 		);

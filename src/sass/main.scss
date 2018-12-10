@@ -63,7 +63,20 @@ body {
 	position: absolute;
 	z-index: 1;
 }
-
+.charactersLinks
+{
+	background-color: #ed2939;
+	display : none;
+	margin-left: 20px;
+	position: relative;
+	left : 85%;
+	top : -70px;
+	color: #ffffff;
+}
+.characters:hover .charactersLinks
+{
+	display: block;
+}
 .navbar__link:hover .drop{
     display:block;
     }
@@ -121,6 +134,117 @@ body {
 		background-color: #ed2959;
 	}
 }
+.headerAnimals
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Animals1.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerBasicPhrases
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BasicPhrases.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerBasicSentences
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BasicSentences.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerFood
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Food.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerNumbers
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Numbers.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerTimeTracking
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Time.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerClothing
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Clothing.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerHiragana
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hiragana.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	&__tagline {
+
+		color: #ffffff;
+		font-size: 4.5rem;
+	}
+	&__learn {
+
+		background-color: #ed2959;
+	}
+}
+.headerKanji
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Kanji.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	flex-direction: column;
+}
+.headerKatakana
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Katakana.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	flex-direction: column;
+}
 .tableCard {
 	background-color: #ed295a;
 	padding: 1.2rem 2rem;
@@ -139,6 +263,10 @@ font-size: 1.2rem;
 &:hover {
 	transform: translateY(9px) scale(1.1);
 }
+}
+.kanjiTable{
+	display: flex;
+	flex-direction: column;
 }
 .card {
 	background-color: #ffffff;
