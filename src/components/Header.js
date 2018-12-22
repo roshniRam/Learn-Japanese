@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Card from './Card';
 
 class Header extends React.Component {

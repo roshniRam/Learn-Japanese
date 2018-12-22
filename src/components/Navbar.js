@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from './Menu';
+import fire, {provider } from '../config/fire';
 
 class Navbar extends React.Component {
 	constructor()
@@ -8,6 +9,7 @@ class Navbar extends React.Component {
 		this.state = {
 			showMenu: false,
 		}
+		this.logOut = this.logOut.bind(this);
 		this.showMenu = this.showMenu.bind(this);
 		this.closeMenu = this.closeMenu.bind(this);
 	}
@@ -22,6 +24,22 @@ class Navbar extends React.Component {
 			document.removeEventListener('click', this.closeMenu);
 		});
 	}
+
+    async logOut(e) {
+        e.preventDefault();
+        try {
+            await fire.auth().signOut()
+            .then(() => {
+              this.setState({
+                user: null
+              });
+            });
+            console.log("Signot Successful");
+        } catch (err) {
+        	alert(err);
+            console.log(err);
+        }
+    }
 	render() {
 		return (
 			<nav className="navbar" >
@@ -51,13 +69,10 @@ class Navbar extends React.Component {
 						</div>
 						</div>
 					</div>
-
 				</div>
-
 				<div className="navbar__link">
-					<a href="#">Login</a>
+					<a href="#" onClick={this.logOut}>LogOut</a>
 				</div>
-
 				</div>
 
 

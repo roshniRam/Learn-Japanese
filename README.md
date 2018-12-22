@@ -14,6 +14,7 @@ For all those Japan fans or people who are willing to learn Japanese, here is a 
 
 ## Start Today !!
 
+
 * [Colors](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/colors) 
 * [Basic phrases](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Basic%20Phrases)
 * [Animals](https://github.com/roshniRam/Learn-Japanese/tree/master/src/components/Start%20learning/Animals)
@@ -39,11 +40,28 @@ How to run:
 
    $ npm install
    ```
+
+#### Configuring Firebase Database
+
+* Go to [Firebase Console](https://console.firebase.google.com) and click "Add project".
+
+* Give a name and click on create app.
+
+* Click on the " </> " icon in project overview and copy the config values and add it in `src/config/config.json` in your project. Note that everything should in quotations in `config.json`
+
+* Go to authentication and click on sign-in method and enable "Email/password"
+
+* Go to Database and create database on Realtime Database and Enable test mode.
+
+
 After installing all requirements, in cmd:
    ```sh
    \Learn-Japanese> npm start
    ```
    
+
+
+* Please note: Dont commit your config.json file
    
 ## How can I support developers?
 

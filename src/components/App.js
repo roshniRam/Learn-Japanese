@@ -13,79 +13,42 @@ import Katakana from './Start\ learning/Characters/Katakana/katakana';
 import Navbar from './Navbar';
 import Header from './Header';
 import Menu from './Menu';
+import fire from '../config/fire';
+import Login from './Login.js';
+import Home from './home.js';
 import {BrowserRouter, Route} from 'react-router-dom';
 import '../sass/main.scss';
 
 class App extends React.Component {
+	constructor(props) {
+    super(props);
+    this.state = {
+      user: {},
+    };
+  }
+
+  componentDidMount() {
+    this.authListner();
+  }
+  authListner() {
+    fire.auth().onAuthStateChanged((user) => {
+      if (user) {
+        // if a user exist
+        this.setState({ user });
+      } else {
+        // if no user exist
+        this.setState({ user: null });
+      }
+    });
+  }
+
 	render() {
 		return (
-			<BrowserRouter>
 			<div>
-			<Route exact={true} path='/' render={() => (
-			<div>
-				<Navbar />
-				<Header />
-			 {/* <Menu /> */}
-			</div>
-			)}/>
-			<Route exact={true} path='/colors' render={() => (
-			<div>
-				<Colors />
-			</div>
-			)}/>
-			<Route exact={true} path='/animals' render={() => (
-			<div>
-				<Animals />
-			</div>
-			)}/>
-			<Route exact={true} path='/basicPhrases' render={() => (
-			<div>
-				<BasicPhrases />
-			</div>
-			)}/>
-			<Route exact={true} path='/basicSentences' render={() => (
-			<div>
-				<BasicSentences />
-			</div>
-			)}/>
-			<Route exact={true} path='/food' render={() => (
-			<div>
-				<Food />
-			</div>
-			)}/>
-			<Route exact={true} path='/numbers' render={() => (
-			<div>
-				<Numbers />
-			</div>
-			)}/>
-			<Route exact={true} path='/timeTracking' render={() => (
-			<div>
-				<TimeTracking />
-			</div>
-			)}/>
-			<Route exact={true} path='/clothing' render={() => (
-			<div>
-				<Clothing />
-			</div>
-			)}/>
-			<Route exact={true} path='/hiragana' render={() => (
-			<div>
-				<Hiragana />
-			</div>
-			)}/>
-			<Route exact={true} path='/kanji' render={() => (
-			<div>
-				<Kanji />
-			</div>
-			)}/>
-			<Route exact={true} path='/katakana' render={() => (
-			<div>
-				<Katakana />
-			</div>
-			)}/>
-			</div>
-			</BrowserRouter>
-		);
+        {/* If there is an user go to home else go to Login screen */}
+        {this.state.user ? (<Home/>) : (<Login />)}
+      </div>
+    );
 	}
 }
 
