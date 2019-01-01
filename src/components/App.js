@@ -26,7 +26,6 @@ class App extends React.Component {
       user: {},
     };
   }
-
   componentDidMount() {
     this.authListner();
   }
@@ -41,15 +40,13 @@ class App extends React.Component {
       }
     });
   }
-
 	render() {
 		return (
 			<div>
         {/* If there is an user go to home else go to Login screen */}
-        {this.state.user ? (<Home/>) : (<Login />)}
+        {this.state.user ? (<Home email={this.state.user.email}/>) : (<Login />)}
       </div>
     );
 	}
 }
-
 export default App;

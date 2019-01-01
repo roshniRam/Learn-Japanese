@@ -12,9 +12,9 @@ export default class Login extends Component {
         this.state = {
             email: '',
             password: '',
+            Name: '',
         }
     }
-
     async login(e) {
         e.preventDefault();
 
@@ -26,27 +26,28 @@ export default class Login extends Component {
             console.log(err);
         }
     }
-
     async signup(e) {
         e.preventDefault();
 
         try {
             let user = await fire.auth().createUserWithEmailAndPassword(this.state.email, this.state.password);
+            var ref = fire.database(this.state.user.uid).ref("user");
+            var obj = {
+               Name: this.state.Name,
+            };
+            ref.push(obj);
             console.log(`Successfully Signed Up ${user}`);
         } catch (err) {
             alert(err);
             console.log(err);
         }
     }
-
     handleChange(e) {
         this.setState({ [e.target.name]: e.target.value })
     }
-
 componentDidMount() {
     document.body.classList.add("background-white");
 }
-
 componentWillUnmount() {
     document.body.classList.remove("background-white");
 }

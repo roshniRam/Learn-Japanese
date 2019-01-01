@@ -3,12 +3,13 @@ import Menu from './Menu';
 import fire, {provider } from '../config/fire';
 
 class Navbar extends React.Component {
-	constructor()
+	constructor(props)
 	{
-		super();
+		super(props);
 		this.state = {
 			showMenu: false,
 		}
+		this.email = props.email;
 		this.logOut = this.logOut.bind(this);
 		this.showMenu = this.showMenu.bind(this);
 		this.closeMenu = this.closeMenu.bind(this);
@@ -46,7 +47,7 @@ class Navbar extends React.Component {
 			  <div className="navbar__logo">
 					<a href="#"><img src = 'http://nulldefinition.com/wp-content/uploads/2016/09/null_logo-300x300.png' height="50px" width='50px'></img> App logo</a>
 				</div>
-
+				<button className="navbar__link">Welcome {this.email}!</button>
 				<div class="links">
 				<div className="navbar__link">
 					<a href="https://roshniram.github.io/Learn-Japanese/">Start Learning</a>

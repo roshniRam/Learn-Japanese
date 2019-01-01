@@ -21,9 +21,9 @@ import '../sass/main.scss';
 export default class Home extends Component {
 	constructor(props) {
         super(props);
+        this.email = props.email;
         this.logOut = this.logOut.bind(this);
         }
-
     async logOut(e) {
         e.preventDefault();
         try {
@@ -44,7 +44,7 @@ export default class Home extends Component {
             <div>
             <Route exact={true} path='/' render={() => (
             <div>
-                <Navbar />
+                <Navbar email={this.email}/>
                 <Header />
              {/* <Menu /> */}
             </div>
@@ -108,7 +108,4 @@ export default class Home extends Component {
             </BrowserRouter>
         );
     }
-
-
-
-    }
+}
