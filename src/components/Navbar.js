@@ -52,7 +52,7 @@ class Navbar extends React.Component {
 				<div className="navbar__link">
 					<a href="https://roshniram.github.io/Learn-Japanese/">Start Learning</a>
 
-					<div class="drop">
+					<div className="drop">
 						<a href="colors">Colors</a>
 						<a href="basicPhrases">Basic phrases</a>
 						<a href="animals">Animals</a>
