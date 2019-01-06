@@ -8,6 +8,7 @@ export default class Login extends Component {
         //binding the function
         this.login = this.login.bind(this);
         this.signup = this.signup.bind(this);
+        this.loginGoogle = this.loginGoogle.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.state = {
             email: '',
@@ -21,6 +22,23 @@ export default class Login extends Component {
         try {
             let user = await fire.auth().signInWithEmailAndPassword(this.state.email, this.state.password);
             console.log(`successfully Signed In ${user}`);
+        } catch (err) {
+            alert(err);
+            console.log(err);
+        }
+    }
+    async loginGoogle(e) {
+        e.preventDefault();
+        
+        try {
+            let user = await fire.auth().signInWithPopup(provider) 
+                .then((result) => {
+                  const user = result.user;
+                  this.setState({
+                    user
+                  });
+                  console.log(`Successfully Signed In using Google${user}`);
+                });
         } catch (err) {
             alert(err);
             console.log(err);
@@ -68,6 +86,9 @@ componentWillUnmount() {
                         </div>
                         <div className="button blue">
                             <a href="#" onClick={this.signup} type="submit">Sign Up</a>
+                        </div>
+                        <div className="button red">
+                            <a href="#" onClick={this.loginGoogle} type="submit">Sign In with Google</a>
                         </div>
                      </form>
                      </div>
