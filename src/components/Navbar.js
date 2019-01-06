@@ -13,6 +13,7 @@ class Navbar extends React.Component {
 		this.logOut = this.logOut.bind(this);
 		this.showMenu = this.showMenu.bind(this);
 		this.closeMenu = this.closeMenu.bind(this);
+		this.deleteAcc = this.deleteAcc.bind(this);
 	}
 	showMenu(event) {
 		event.preventDefault();
@@ -40,10 +41,29 @@ class Navbar extends React.Component {
         	alert(err);
             console.log(err);
         }
+	}
+	async deleteAcc(e) {
+        e.preventDefault();
+        var r = window.confirm("Are you sure you want to delete your account. All your data will be deleted permanently.");
+        if (r == true) {
+            var user = fire.auth().currentUser;
+            user.delete().then(function() {
+            // User deleted.
+            alert('Delete successful.')
+            }, function(error) {
+            alert(error);
+            });
+        }
+        else {
+            alert("You pressed Cancel!");
+        }
     }
 	render() {
 		return (
 			<nav className="navbar" >
+			<div className="navbar__link">
+				<a href="#" onClick={this.deleteAcc}>Delete Account</a>
+			</div>
 			  <div className="navbar__logo">
 					<a href="#"><img src = 'http://nulldefinition.com/wp-content/uploads/2016/09/null_logo-300x300.png' height="50px" width='50px'></img> App logo</a>
 				</div>
