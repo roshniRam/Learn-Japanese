@@ -21,9 +21,11 @@ body {
 .navbar {
 	padding: 1.5rem 15rem;
 	display: flex;
-	background-color: #f8f9fa;
 	justify-content: space-between;
+	background-color: #f8f9fa;
 	box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.2);
+
+    overflow: hidden;
 
 	&__logo a {
 		display: inline-block;
@@ -32,16 +34,56 @@ body {
 		font-size: 2rem;
 	}
 
-	&__link a {
+
+	&__link {
 		display: inline-block;
+		float: left;
+		margin-left: 20px;
+	}
+
+
+	&__link a {
+		display: block;
 		text-decoration: none;
 		font-size: 1.6rem;
 		background-color: #ed2939;
 		padding: 3px 1.2rem;
 		color: #ffffff;
 		border-radius: 3px;
+    	margin: 2px;
 	}
 }
+.links{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.drop {
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+.drop a:hover{
+	background-color: #ff6666;
+}
+
+.charactersLinks
+{
+	background-color: #ed2939;
+	display : none;
+	margin-left: 20px;
+	position: relative;
+	left : 85%;
+	top : -70px;
+	color: #ffffff;
+}
+.characters:hover .charactersLinks
+{
+	display: block;
+}
+.navbar__link:hover .drop{
+    display:block;
+    }
 
 .header {
 	height: calc(100vh - 6.4rem);
@@ -67,6 +109,7 @@ body {
 		border-radius: 3px;
 		border: none;
 		outline: none;
+
 		font-weight: 700;
 		text-transform: uppercase;
 		letter-spacing: 1px;
@@ -84,7 +127,151 @@ body {
 		}
 	}
 }
+.headerColors
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Colors_lonfeldt.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerAnimals
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Animals1.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerBasicPhrases
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BasicPhrases.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerBasicSentences
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/BasicSentences.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerFood
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Food.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerNumbers
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Numbers.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerTimeTracking
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Time.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerClothing
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Clothing.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	&__learn {
+		width: 50%;
+		background-color: #ed2959;
+	}
+}
+.headerHiragana
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hiragana.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	&__tagline {
 
+		color: #ffffff;
+		font-size: 4.5rem;
+	}
+	&__learn {
+
+		background-color: #ed2959;
+	}
+}
+.headerKanji
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Kanji.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	flex-direction: column;
+}
+.headerKatakana
+{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Katakana.jpg);
+	background-size: cover;
+	padding: 5rem 15rem;
+	display: flex;
+	flex-direction: column;
+}
+.tableCard {
+	background-color: #ed295a;
+	padding: 1.2rem 2rem;
+	display: inline-block;
+	border-radius: 3px;
+	margin-bottom: 2rem;
+	transition: all 0.3s ease-in-out;
+&__Header{
+	color: #ffffff;
+ font-size: 1.3rem;
+}
+&__Element{
+color: #ffffff;
+font-size: 1.2rem;
+}
+&:hover {
+	transform: translateY(9px) scale(1.1);
+}
+}
+.kanjiTable{
+	display: flex;
+	flex-direction: column;
+}
 .card {
 	background-color: #ffffff;
 	padding: 1.2rem 2rem;

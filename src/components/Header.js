@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Card from './Card';
 
 class Header extends React.Component {
@@ -20,7 +19,7 @@ class Header extends React.Component {
 						heading="Learn anywhere, anytime"
 						content="A learning adventure that will help you enhance your skills. Lorem ipsum dolor sit amet, an putent fabellas signiferumque qui"
 					/>
-					<button className="header__start-learning">Start Learning</button>
+					<button className="header__start-learning" >Start Learning</button>
 				</div>
 			</header>
 		);

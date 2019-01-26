@@ -1,0 +1,4 @@
+{
+    "db" : "mongodb://admin:admin12@ds123624.mlab.com:23624/learn-japanese",
+    "privateKey" : "yoyo"
+}
